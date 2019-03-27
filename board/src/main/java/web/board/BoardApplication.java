@@ -1,4 +1,4 @@
-package com.board;
+package web.board;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
