@@ -1,0 +1,13 @@
+diff a/board/bin/application.properties b/board/bin/application.properties	(rejected hunks)
+@@ -4,6 +4,11 @@
+ debug=false
+ trace=false
+ 
++# ----------------------------------------
++# LOGGING
++# ----------------------------------------
++logging.config=classpath:logback/logback-spring.xml
++
+ # ----------------------------------------
+ # WEB PROPERTIES
+ # ----------------------------------------
