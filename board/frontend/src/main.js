@@ -4,8 +4,6 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-// ** bootstrap-vue 사용
-import BootstrapVue from 'bootstrap-vue';
 // using style-loader
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
