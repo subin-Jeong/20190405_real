@@ -1,4 +1,4 @@
-package com.estsoft.web;
+package com.estsoft;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
