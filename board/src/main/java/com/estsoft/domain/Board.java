@@ -8,26 +8,29 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+import lombok.Data;
+
+@Data
 @Entity(name = "BOARD")
 public class Board {
 	
 	@Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "BOARD_ID")
-    private long id;
+    long id;
 
     @Column(name = "TITLE")
-    private String title;
+    String title;
 
     @Column(name = "CONTENT")
-    private String content;
+    String content;
 
     @Column(name = "REG_DATE")
-    private Date regDate;
+    Date regDate;
 
     @Column(name = "MODIFY_DATE")
-    private Date modifyDate;
+    Date modifyDate;
 
     @Column(name = "DEL_FLAG")
-    private boolean delFlag;
+    boolean delFlag;
 }

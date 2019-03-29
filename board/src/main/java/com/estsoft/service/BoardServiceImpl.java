@@ -19,6 +19,12 @@ public class BoardServiceImpl implements BoardService {
 	
 	@Override
 	@Transactional
+	public List<Board> list() {
+		return boardRepository.findAll();
+	}
+	
+	@Override
+	@Transactional
 	public List<Board> findById(String id) {
 		return boardRepository.findById(id).collect(Collectors.toList());
 	}
