@@ -25,7 +25,7 @@ public class BoardController {
 		return "index";
 	}
 	
-	// °Ô½Ã±Û ¸ñ·Ï
+	// ê²Œì‹œê¸€ ëª©ë¡
 	@GetMapping("/list")
 	public String list(Locale locale, Model model) {
 		List<Board> list = boardService.list();
